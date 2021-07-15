@@ -26,3 +26,26 @@
     color:rgb(95, 93, 93);
     font-weight: bold;
   }
+  .rideContextArea{
+      text-align: center;
+      margin: 250px 0;
+      
+  }
+  .rideContextArea a{
+      text-decoration: none;
+      color:black ;
+  }
+  .individualContext{
+      border: 1px solid lightgray;
+      width: 200px;
+      height: 220px;
+      float: left;
+      margin-left: 97px;
+      background-color: white;
+      border-radius: 20px;
+  }
+  .individualContext img{
+      width:140px;
+      margin-top: 20px;
+      margin-bottom: 20px;
+  }
