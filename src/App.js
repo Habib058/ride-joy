@@ -9,15 +9,27 @@ import {
   Link
 } from "react-router-dom";
 import Home from './components/Home/Home';
+import Login from './components/Login/Login';
+import SignUp from './components/SignUp/SignUp';
 
 function App() {
   return (
     <div className="App">
       <Router>
         <Switch>
-          <Route path ="/">
+          <Route path ="/home">
             <Home/>
           </Route>
+          <Route path ="/signUp">
+            <SignUp/>
+          </Route>
+          <Route path="/login">
+            <Login/>
+          </Route>
+          <Route exact path ="/">
+            <Home/>
+          </Route>
+
         </Switch>
       </Router>
     </div>

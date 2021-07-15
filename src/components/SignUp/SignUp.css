@@ -1,0 +1,27 @@
+.backgroundColor{
+    background-color: rgb(161, 224, 233);
+    height: 700px;
+}
+.backgroundColor p{
+    margin-top: 5px;
+}
+.signInForm{
+    margin:130px 450px;
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+}
+.signInForm input{
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 380px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.error{
+    color:red
+}

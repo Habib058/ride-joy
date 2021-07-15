@@ -1,0 +1,19 @@
+.nav{
+    margin-top: 50px;
+    margin-right: 200px;
+    float: right;
+}
+.nav h4{
+    margin-right: 200px;
+    color: black;
+}
+.nav li{
+    display: inline;
+    margin-left: 50px;
+    
+  }
+  .nav a{
+    text-decoration: none;
+    color:rgb(95, 93, 93);
+    font-weight: bold;
+  }
