@@ -1,7 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Header from '../Header/Header';
-import css from './SignUp.css'
+import css from './SignUp.css';
+import google from '../../images/google.webp'
 
 const SignUp = () => {
     const handleBlur = () => {
@@ -20,8 +21,13 @@ const SignUp = () => {
                     <input type="password" name="password" onBlur={handleBlur} placeholder="Confirm Password" required />
                     <input className="btn btn-success" type="submit" value="create an account" />
                     <p>Already Have An Account? <Link to="/login">LogIn</Link></p>
-
                 </form>
+                <Link><div className="googleSignIn">
+                 <div>
+                     <img className="image" src={google} alt="" />
+                 <p>Continue With Google</p>
+                 </div>
+                </div></Link>
             </div>
         </div>
     );

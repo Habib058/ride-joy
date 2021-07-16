@@ -1,1 +1,42 @@
+.backgroundColor{
+    background-color: rgb(161, 224, 233);
+    height: 700px;
+}
 
+.sign-in-form{
+    margin:130px 447px;
+    border:1px solid gray;
+    border-radius: 10px;
+    width: 400px;
+    height: 300px;
+    background-color: white;
+    margin-bottom: 30px;
+}
+.sign-in-form input{
+    display: block;
+    margin-top: 30px;
+    padding: 5px;
+    border: 1px solid gray;
+    width: 380px;
+    margin-left:10px;
+    margin-right: 10px;
+}
+.googleSignIn{
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 40px;
+    width: 400px;
+    margin:0 auto;
+    color: black;
+}
+.backgroundColor a{
+    text-decoration: none;
+}
+.googleSignIn:hover{
+    box-shadow: 5px 5px 5px lightslategrey;
+}
+.image{
+    float: left;
+    margin-left: 10px;
+    width: 30px;
+}

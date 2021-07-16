@@ -6,12 +6,13 @@
     margin-top: 5px;
 }
 .signInForm{
-    margin:130px 450px;
+    margin:130px 447px;
     border:1px solid gray;
     border-radius: 10px;
     width: 400px;
     height: 400px;
     background-color: white;
+    margin-bottom: 30px;
 }
 .signInForm input{
     display: block;
@@ -24,4 +25,15 @@
 }
 .error{
     color:red
+}
+.backgroundColor a{
+    text-decoration: none;
+}
+.googleSignIn:hover{
+    box-shadow: 5px 5px 5px lightslategrey;
+}
+.image{
+    float: left;
+    margin-left: 10px;
+    width: 30px;
 }

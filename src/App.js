@@ -11,6 +11,9 @@ import {
 import Home from './components/Home/Home';
 import Login from './components/Login/Login';
 import SignUp from './components/SignUp/SignUp';
+import Destination from './components/Destination/Destination';
+import Blog from './components/Blog/Blog';
+import Contact from './components/Contact/Contact';
 
 function App() {
   return (
@@ -25,6 +28,15 @@ function App() {
           </Route>
           <Route path="/login">
             <Login/>
+          </Route>
+          <Route path ="/destination">
+            <Destination/>
+          </Route>
+          <Route path ="/blog">
+            <Blog/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
           </Route>
           <Route exact path ="/">
             <Home/>
