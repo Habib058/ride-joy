@@ -1,6 +1,18 @@
-.backgroundColor{
-    background-color: rgb(161, 224, 233);
-    height: 700px;
+.backgroundContent{
+    height:800px;
+    margin-top: 20px;
+    background-image: url(../../images/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.backgroundContent a{
+    text-decoration: none;
+}
+.backgroundContent p{
+    padding: 5px;
+    text-align: center;
 }
 
 .sign-in-form{
@@ -29,6 +41,7 @@
     margin:0 auto;
     color: black;
 }
+
 .backgroundColor a{
     text-decoration: none;
 }

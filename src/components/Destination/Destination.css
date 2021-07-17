@@ -1,6 +1,6 @@
 .content{
     height: 600px;
-    border-top: 1px solid red;
+    border-top: 1px solid gray;
     margin: 100px auto;
 }
 .searchContent{
@@ -10,7 +10,7 @@
     border-radius: 10px;
     margin :10px;
     float: left;
-    background-color: #DCDCDC;
+    background-color: #F8F8FF;
 }
 .mapContent{
     width: 900px;
@@ -25,4 +25,10 @@
 .searchContent input{
     width:250px ;
     margin-bottom: 20px;
+    margin-left: 20px;
+}
+.searchContent label{
+    margin-bottom: 5px;
+    color: black;
+    margin-left: 20px;
 }

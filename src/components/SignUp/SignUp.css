@@ -1,9 +1,15 @@
 .backgroundColor{
-    background-color: rgb(161, 224, 233);
-    height: 700px;
+    height:800px;
+    margin-top: 20px;
+    background-image: url(../../images/Bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
 }
 .backgroundColor p{
     margin-top: 5px;
+    text-align: center;
 }
 .signInForm{
     margin:130px 447px;
@@ -22,6 +28,10 @@
     width: 380px;
     margin-left:10px;
     margin-right: 10px;
+}
+
+.signInForm h4{
+    margin-left: 10px;
 }
 .error{
     color:red

@@ -21,7 +21,7 @@ const Destination = () => {
                         <br />
                         <input type="text" name="to" onBlur={handleBlur} placeholder="Place To Go" />
                         <br />
-                        <input className="btn btn-success" type="submit" value="Submit" />
+                        <input className="btn btn-success" type="submit" value="Search" />
                     </form>
 
                 </div>
