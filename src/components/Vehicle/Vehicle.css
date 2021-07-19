@@ -1,0 +1,15 @@
+.individualContext{
+    border: 1px solid lightgray;
+    width: 200px;
+    height: 220px;
+    float: left;
+    margin-left: 97px;
+    background-color: white;
+    border-radius: 20px;
+}
+.individualContext img{
+    width:140px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
