@@ -17,6 +17,7 @@ import Contact from './components/Contact/Contact';
 import { createContext } from 'react';
 import { useState } from 'react';
 import PrivateRoute from './components/PrivateRoute/PrivateRoute';
+import NoMatch from './components/NoMacth/NoMatch';
 
 export const userContext = createContext();
 
@@ -46,6 +47,9 @@ function App() {
           </Route>
           <Route exact path ="/">
             <Home/>
+          </Route>
+          <Route path ='*'>
+            <NoMatch/>
           </Route>
 
         </Switch>
