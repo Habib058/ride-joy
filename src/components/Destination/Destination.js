@@ -1,6 +1,7 @@
 import React from 'react';
 import Header from '../Header/Header';
-import css from './Destination.css'
+import css from './Destination.css';
+import map from '../../images/Map.png'
 
 const Destination = () => {
     const handleBlur = () => {
@@ -21,12 +22,14 @@ const Destination = () => {
                         <br />
                         <input type="text" name="to" onBlur={handleBlur} placeholder="Place To Go" />
                         <br />
+                        <label htmlFor="to">Date</label><br />
+                        <input type="date" name="" id="" /><br />
                         <input className="btn btn-success" type="submit" value="Search" />
                     </form>
 
                 </div>
                 <div className="mapContent">
-
+                    <img style={{width:'900px',height:'700px'}} src={map} alt="" />
                 </div>
 
             </div>

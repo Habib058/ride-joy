@@ -25,9 +25,11 @@ const Header = () => {
                     <li>
                         <Link to="/contact">Contact</Link>
                     </li>
-                    <li>
-                       {<Link to="/login">{<button className="btn btn-success">LogIn</button>}</Link>}
-                    </li>
+                   {loggedInUser.email?
+                   <li style={{color:'black'}}><Link>{loggedInUser.displayName}</Link></li> : 
+                   <li>
+                       <Link to="/login">{<button className="btn btn-success">LogIn</button>}</Link>
+                    </li>}
                 </ul>
             </nav>
         </div>
