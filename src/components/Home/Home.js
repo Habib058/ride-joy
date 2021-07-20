@@ -7,18 +7,14 @@ import bus from '../../images/Frame-1.png';
 import car from '../../images/Frame-2.png';
 import bike from '../../images/Frame.png';
 import Header from '../Header/Header';
-import fakeData from '../../fakeData/data.json';
 import { useState } from 'react';
 import { useEffect } from 'react';
 import Vehicle from '../Vehicle/Vehicle';
+import vehicles from '../../fakeData/data';
 
 
 const Home = () => {
-    console.log(fakeData);
-    const [vehicle, setVehicle] = useState([]);
-    useEffect(() => {
-        setVehicle(fakeData);
-    }, [])
+    
     return (
 
         <div className="container" >
@@ -27,7 +23,7 @@ const Home = () => {
                 <br />
                 <div className="rideContextArea">
                     {
-                        vehicle.map(vehicle =>
+                        vehicles.map(vehicle =>
                                 <Vehicle
                                     key={vehicle.id}
                                     vehicle={vehicle}>

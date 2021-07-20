@@ -2,6 +2,7 @@ import React from 'react';
 import { useContext } from 'react';
 import { Link } from 'react-router-dom';
 import { userContext } from '../../App';
+import logo from '../../images/joy-ride-5235e72a173bf.png'
 import css from './Header.css'
 
 const Header = () => {
@@ -9,10 +10,10 @@ const Header = () => {
     const name = loggedInUser.name;
 
     return (
-        <div>
+        <div className="header">
             <nav className="nav">
-                <h4>RIDE-JOY</h4>
-                <ul>
+                <ul className="ul">
+                    <li><img style={{width:"100px"}} src={logo} alt="" /></li>
                     <li>
                         <Link to="/home">Home</Link>
                     </li>
