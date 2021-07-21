@@ -30,27 +30,6 @@ const Home = () => {
                                 </Vehicle>
                             )
                     }
-
-                    {/* <Link to="/destination" className="individualContext">
-                    <img src={bike} alt="" />
-                    <br />
-                    <h3>BIKE</h3>
-                </Link>
-                <Link to="/destination" className="individualContext">
-                    <img src={car} alt="" />
-                    <br />
-                    <h3>CAR</h3>
-                </Link>
-                <Link to="/destination" className="individualContext">
-                    <img src={bus} alt="" />
-                    <br />
-                    <h3>BUS</h3>
-                </Link>
-                <Link to ="/destination" className="individualContext">
-                    <img src={train} alt="" />
-                    <br />
-                    <h3>TRAIN</h3>
-                </Link> */}
                 </div>
 
             </div>
